@@ -37,7 +37,7 @@ function Header() {
                   </div>
                   {/* logo */}
                   {/* menu start */}
-                  <nav className="main-menu">
+                  <nav className="main-menu  ">
                     <ul>
                       <li>
                         <Link to={"/"}>Trang chủ</Link>
@@ -72,9 +72,7 @@ function Header() {
                       </li>
                     </ul>
                   </nav>
-                  <a className="mobile-show search-bar-icon" href="#">
-                    <i className="fas fa-search" />
-                  </a>
+
                   <div className="mobile-menu" />
                   {/* menu end */}
                 </div>
